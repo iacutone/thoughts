@@ -1,4 +1,4 @@
-baseURL = "https://thoughts.iacut.one"
+baseURL = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Eric Iacutone"
@@ -83,11 +83,6 @@ limit = 15   # Maximum number of items in the RSS feed.
 [menu]
 
   [[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 10
-
-  [[menu.main]]
     name = "Notes"
     url = "notes/"
     weight = 20
@@ -106,19 +101,25 @@ order = [".png$", ".jpg$", ".gif$"]
 [[deployment.targets]]
 # An arbitrary name for this target.
 name = "production"
-URL = "s3://awesomesauce.com?region=eu-west-1"
-cloudFrontDistributionID = "E182PSTPHYX81YO"
+URL = "s3://iacutone-thoughts?region=us-east-1"
+cloudFrontDistributionID = "E2IVN9E28GZFAL"
 
 [[deployment.matchers]]
-#  Cache static assets for 1 year.
-pattern = "^.+\\.(js|css|svg|ttf|woff|woff2|eot|webmanifest|ico|pdf)$"
+# Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
 cacheControl = "max-age=31536000, no-transform, public"
 gzip = true
 
 [[deployment.matchers]]
-pattern = "^.+\\.(png|jpg|gif)$"
+pattern = "^.+\\.(png|jpg)$"
 cacheControl = "max-age=31536000, no-transform, public"
 gzip = false
+
+[[deployment.matchers]]
+# Set custom content type for /sitemap.xml
+pattern = "^sitemap\\.xml$"
+contentType = "application/xml"
+gzip = true
 
 [[deployment.matchers]]
 pattern = "^.+\\.(html|xml|json)$"
