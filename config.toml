@@ -99,10 +99,9 @@ limit = 15   # Maximum number of items in the RSS feed.
 order = [".png$", ".jpg$", ".gif$"]
 
 [[deployment.targets]]
-# An arbitrary name for this target.
 name = "production"
 URL = "s3://iacutone-thoughts?region=us-east-1"
-cloudFrontDistributionID = "E2IVN9E28GZFAL"
+cloudFrontDistributionID = "E3I46GURYQUF6J"
 
 [[deployment.matchers]]
 # Cache static assets for 1 year.
