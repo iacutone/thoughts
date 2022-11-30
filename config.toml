@@ -83,6 +83,11 @@ limit = 15   # Maximum number of items in the RSS feed.
 [menu]
 
   [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
     name = "Notes"
     url = "notes/"
     weight = 20
