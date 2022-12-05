@@ -27,8 +27,9 @@ Soft landing from:
 1. reduced the size of the army
 2. many cities abandoned 
 
-Sustainability = Energy + Innovation
-All easy innovations have been achieved and is now more complicated (based at number of patents and people involved per patent).
+
+- Sustainability = Energy + Innovation
+- All easy innovations have been achieved and is now more complicated (based at number of patents and people involved per patent).
 
 
 ### Sources
