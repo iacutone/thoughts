@@ -135,7 +135,7 @@ defmacro dynamic(binding \\ [], expr) do
 end
 ```
 
-The `Query` module is interesting because it encapsulates all query building logic. The next step in the call stack is the `Builder.Dynamic.build/3` function looks like (with added logging):
+The `Query` module is interesting because it encapsulates all query building logic–-all queryable functions (`from`, `where`, `join`) are located here. The next step in the call stack is the `Builder.Dynamic.build/3` function looks like (with added logging):
 
 ```elixir
 def build(binding, expr, env) do
