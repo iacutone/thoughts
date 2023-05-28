@@ -281,7 +281,7 @@ With the logging added, compiling the app produces the following output:
 ]
 ```
 
-I did not expect Ecto to compile so many ASTs based on `dynamic/2` function calls. The compiler creates an AST for every dynamic function call as seen in the "escape expr" logging. Embedded withing the escaped expression output is our dynamic query:
+I did not expect Ecto to compile so many ASTs based on `dynamic/2` function calls. The compiler creates an AST for every dynamic function call as seen in the "escape expr" logging. Embedded within the escaped expression output is our dynamic query:
 
 ```elixir
 expr = [
