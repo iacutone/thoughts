@@ -294,8 +294,12 @@ iex(16)> Macro.to_string(expr)
 "[{{:., [], [{:&, [], [0]}, :author]}, [], []}, {:^, [], [1]}]"
 ```
 
+According to [AppSignal](https://blog.appsignal.com/2023/02/14/under-the-hood-of-ecto.html), the compiled query is only called once and then cached in an ETS table. At this phase, the compiled and cached query is called a prepared statement. The Postgres [docs](https://www.postgresql.org/docs/current/sql-prepare.html) state: 
 
-Overall, the `dynamic/2` function in Ecto is a powerful tool for building flexible and dynamic queries that can adapt to a wide variety of use cases.
+> Prepared statements potentially have the largest performance advantage when a single session is being used to execute a large number of similar statements.
+
+Before taking this deep dive, I was not aware of all the internal code compilation and caching in ETS. In terms of `dynamic/2`, overall, the function is a powerful abstraction for building flexible queries that can adapt to a wide variety of use cases.
 
 ### Sources
 - [Under the Hood of Ecto](https://blog.appsignal.com/2023/02/14/under-the-hood-of-ecto.html)
+- [SQL Prepare](https://www.postgresql.org/docs/current/sql-prepare.html)
