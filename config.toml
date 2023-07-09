@@ -66,8 +66,8 @@ limit = 15   # Maximum number of items in the RSS feed.
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/iacutone"
+    name = "mastodon"
+    url = "https://mastodon.social/@iacutone"
 
   [[params.social]]
     name = "github"
