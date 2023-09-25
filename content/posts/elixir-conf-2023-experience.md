@@ -29,9 +29,10 @@ At cars.com, we had a group of ElixirConf presenters. Before the coference, we h
 
 One suggestion that helped immensely is the concept of a [code sandwich](https://bphogan.com/2020/02/05/improve-tutorials-with-code-sandwich/). This concept has three parts:
 
-A brief high-level description of the code.
-The code itself.
-A deeper dive into the tricky bits of the code.
+1. A brief high-level description of the code.
+2. The code itself.
+3. A deeper dive into the tricky bits of the code.
+
 I took a complementary view of this concept and instead of diving into tricky bits of code, I reinforced concepts via graphs and animations. Iterating on a solid base presentation I was able to mitigate confusion. By the third practice run, I was confident in both my slides, words and presentation as a whole.
 
 A week before the talk I faced some severe stress. At cars.com we have an on-call rotation. While I enjoy the change of pace and different problems I face being on-call, hurricane Idalia also forced me to evacuate my apartment the same week. Faced with both on-call responsibilities and evacuating St. Petersburg with my family left little time to focus on presentation preparation. It was during this week when the voice in my head started having thoughts about formulating an excuse to not go to Orlando.
