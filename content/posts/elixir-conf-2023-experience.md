@@ -1,7 +1,7 @@
 ---
 title: "My Elixir Conf 2023 Experience"
 date: 2023-09-17T12:37:58-04:00
-draft: true
+draft: false
 toc: false
 images:
 tags: 
