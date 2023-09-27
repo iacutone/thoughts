@@ -25,15 +25,7 @@
 		{{ partial "extra-head.html" . }}
 		{{- end }}
 
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-N20BJPC92G"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'G-N20BJPC92G');
-		</script>
+		{{ template "_internal/google_analytics.html" . }}
 	</head>
 
 	<body id="page">
