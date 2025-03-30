@@ -31,7 +31,7 @@ Server
 
 There was an untested bug within the `handle_call/3` callback from the client. In order to assert the output of an embedded LiveView `handle_call/3` function from the parent, one needs to reach for the `live_children/1` function.
 
-In my case, I had introduced a bug into the "do-work" function which raised an error. `live_children/1` gives me the ability to have the test suite catch this bug at an 'integration' test level. The `live_chilren/1` [docs](https://github.com/phoenixframework/phoenix_live_view/blob/v0.17.11/lib/phoenix_live_view/test/live_view_test.ex#L909) state:
+In my case, I had introduced a bug into the "do-work" function which raised an error. `live_children/1` gives me the ability to have the test suite catch this bug at an 'integration' test level. The `live_children/1` [docs](https://github.com/phoenixframework/phoenix_live_view/blob/v0.17.11/lib/phoenix_live_view/test/live_view_test.ex#L909) state:
 
 > Returns the current list of LiveView children for the parent LiveView.
 > Children are returned in the order they appear in the rendered HTML.
