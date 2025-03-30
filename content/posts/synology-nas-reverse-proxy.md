@@ -1,7 +1,7 @@
 ---
 title: "Synology Nas Reverse Proxy"
 date: 2025-03-29T18:49:33-04:00
-draft: true
+draft: false
 toc: false
 images:
 tags: 
