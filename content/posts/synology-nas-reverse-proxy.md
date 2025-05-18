@@ -16,8 +16,8 @@ tags:
 2. Click the "Certificate" tab
 3. Select the "Add a new certificate" radio selector
 4. Select the "Get a certificate from Let's Encrypt" radio selector
-5. In the "Domain name" text field input: "<your-domain>.synology.me"
-6. In the "Subject Alternative Name" text field input: "*.<your-domain>.synology.me"
+5. In the "Domain name" text field input: "\<your-domain\>.synology.me"
+6. In the "Subject Alternative Name" text field input: "\*.\<your-domain\>.synology.me"
   - this last step is important in order to have wild card routes
 
 ## Create DNS CNAME
@@ -34,4 +34,4 @@ tags:
 4. Click "Create" button
   - note, the Destination port needs to match the port defined in the Docker Compose yml
 
-The best part of this is Synology will auto-renew your Let's Encrypt certifications.
+The best part of this is Synology will auto-renew your CA certifications via Let's Encrypt.
