@@ -1,5 +1,5 @@
 ---
-title: "Twenty Apps: Building Twenty Apps to Find the One That Works"
+title: "Building Twenty Apps to Find the One That Works"
 date: 2025-07-08T18:28:36-04:00
 draft: false
 toc: false
@@ -10,7 +10,7 @@ tags:
 
 ### Introduction
 
-What if you knew that only 5% of your startup ideas would succeed—but you had the grit to try 20 times? Pieter Levels famously said that only 1 in 20 of his ideas succeeds [link](https://x.com/levelsio/status/1457315274466594817?lang=en). This blog series documents my journey to create twenty web applications, one after the other, with the goal of hitting profitability by app number twenty—or earlier.
+What if you knew that only 5% of your startup ideas would succeed—but you had the grit to try 20 times? Pieter Levels famously said that only 1 in 20 of his ideas succeeds [link](https://x.com/levelsio/status/1457315274466594817?lang=en). This blog series documents my journey to create twenty web applications, one after the other, with the goal of hitting profitability by app number twenty—or earlier. [Using Coding Skills to Make Passive Income](https://www.youtube.com/watch?v=2VD9CWJ9HPM) is a fantastic intro around tactics to generating a successful app.
 
 In this new era with AI tools, I believe I can build 20 apps with [Cursor](https://cursor.com/) and its agent interface doing most of the grunt work. In fact, I will hopefully be giving a talk at the [ExMex](https://exmexconf.com/) Elixir conference about how I leverage Cursor to refactor repetitive tasks at my day job.
 
@@ -25,7 +25,7 @@ To keep this challenge focused and measurable, I’ve set a few constraints:
 1. **One app at a time.** I will finish and ship each app before starting the next one.
 2. **Solve real problems.** Every app will target a niche pain point, preferably one I understand personally or professionally.
 3. **No ads.**
-4. **Transparent metrics.** I’ll share MRR, user counts, tech stack decisions, and lessons learned for each project.
+4. **Transparent metrics.** I'll publish metrics such as number of emails obtained from Splash page and Plausible analytics.
 
 ---
 
@@ -42,7 +42,7 @@ Each entry in the *Twenty Apps* series will include:
 * The idea and target user
 * Research and competitors
 * Issues refining the LLM agent prompt
-* Traffic and revenue metrics (if any) from [Plausible Analytics](https://plausible.io/)
+* Traffic metrics from [Plausible Analytics](https://plausible.io/)
 * Post-mortem: what worked, what didn’t
 * Next steps (pivot, abandon, improve?)
 * All projects will be posted on my personal website [here](https://iacut.one/software.html)
