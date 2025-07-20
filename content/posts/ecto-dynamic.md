@@ -5,7 +5,8 @@ draft: false
 toc: false
 images:
 tags: 
-  - elixir, ecto
+  - elixir
+  - ecto
 ---
 
 I've run into the `dynamic/2` function a few times and wanted to glean a deeper understanding. 

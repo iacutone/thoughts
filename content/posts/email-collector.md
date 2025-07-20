@@ -5,7 +5,9 @@ draft: false
 toc: false
 images:
 tags: 
-  - entrepreneurship, elixir, phoenix
+  - entrepreneurship
+  - elixir
+  - phoenix
 ---
 
 # 📬 email\_collector: A Privacy-First Email Signup Backend for Developers
