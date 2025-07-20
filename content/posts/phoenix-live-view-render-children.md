@@ -5,7 +5,10 @@ draft: false
 toc: false
 images:
 tags: 
-  - elixir, phoenix, liveview, testing
+  - elixir
+  - phoenix
+  - liveview
+  - testing
 ---
 
 A few weeks ago, I introduced a regression into our application that should have been caught by the test suite. This bug was in a LiveView that rendered an embedded LiveView. The embeded LiveView contains a Javascript client hook on mount that updates the sockets assigns and finally the DOM based on the results of a `handle_call/3` callback. That's a difficult few sentences to follow, but the following diagram encapsulates my explanation nicely:
