@@ -16,6 +16,60 @@ In this new era with AI tools, I believe I can build 20 apps with [Cursor](https
 
 This is not a passive investment strategy. It’s a deliberate, compounding effort to ship small, useful tools into the world.
 
+Here are some other useful resources I have collected and will keep in mind while building.
+
+My notes from [10 Things I’ve Learned | Jason Fried at BIG Omaha](https://www.youtube.com/watch?v=wC14JM94BIs):
+
+1. Bootstrapped company
+  - we need to make money--something someone can get good at with practice
+  - funded company: we need to spend money--rent time
+  - own your own schedule
+
+2. Price
+  - you need to be good in order to charge money for something
+    - an intimate relationship--will give honest feedback
+  - are we $50 good enough?
+
+3. Useful > Innovative
+  - innovation is overrated
+  - usefullness never wears off
+  - ask yourself, is this useful?
+
+4. Focus on What Won't Change (in your business)
+  - speed, reliability, secure, simplicity
+  - quality is an iteritive process
+
+5. DIY
+  - how can you evaluate something if you don't know what it does?
+    - try to solve the problem internally
+    - forces you to learn stuff
+
+6. I'm Sorry 
+  - HR/lawyer apologize
+  - a real apology: more trusting customer base
+  - do your customers believe/trust your apologies?
+
+7. Draw a Line in the Sand
+  - have a clear point of view
+  - what would you say no to?
+
+8. Specs, Features and Tech
+  - can I afford it?
+  - is it comfortable?
+    - customers don't care about the features
+  - nail the basics
+ 
+9. Less
+  - finish things
+  - say no
+  - focus on a few things really well
+
+Description of the Mom Test from the [blog post](https://www.coryzue.com/writing/solopreneur/) associated with "Using Coding Skills to Make Passive Income" video:
+
+> The key point from this book is when you’re trying to pitch a startup idea to anybody, they’re going to talk to you like your Mom would talk to you. You’re going to pitch your thing and they’ll say “sweetie that’s such a good idea, I love it, you’re going to be so successful.”
+
+> People do this because they don’t want to burst your bubble. You’re coming to your friends, you’re coming to your co-workers saying “I got this cool idea for an app”—no one’s going to tell you that idea sucks, because they want you to not have your confidence destroyed. This is a really good book that hammers that concept home for you and then gives you a framework for trying to get around the fact that everybody’s kind of lying to you when you pitch your ideas.
+
 ---
 
 ### The Rules

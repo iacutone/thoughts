@@ -12,8 +12,6 @@ tags:
 
 # 📬 email\_collector: A Privacy-First Email Signup Backend for Developers
 
-**Posted on [iacut.one/software.html](https://iacut.one/software.html)**
-
 ---
 
 ## 1. 🧠 The Idea
@@ -70,20 +68,19 @@ No JavaScript. No trackers. Just POST to an endpoint and GET back email signups 
 
 ### POST endpoint for collecting emails:
 
-```http
-POST /api/collect
-Content-Type: application/json
-
-{
-  "email": "user@example.com",
-  "campaign": "launch"
-}
+```bash
+curl -X POST \
+  https://email.collection.email/api/v1/emails/2 \
+  -H "Content-Type: application/json" \
+  -d '{"email": {"name": "example@email.com"}}' 
 ```
 
 ### GET endpoint to retrieve signups:
 
-```http
-GET /api/emails?campaign=launch
+```bash
+curl -X GET \
+  https://email.collection.email/api/v1/emails/2 \
+  -H 'Authorization: Bearer YOUR_API_KEY'
 ```
 
 This makes it easy to:
@@ -94,7 +91,9 @@ This makes it easy to:
 
 ---
 
-## 5. 🤖 Building It with an LLM-Powered Phoenix Workflow
+## 5. 🤖 Tech Stack
+
+### Built with the [Phoenix Framework](https://www.phoenixframework.org/)
 
 While this app is relatively simple, I wanted to try something different: **vibe coding with [Cursor](https://www.cursor.so/)**, an AI-first code editor.
 
@@ -105,6 +104,8 @@ The result was surprisingly productive:
 * Even small touches—like timestamped logs or JSON responses—were quickly refined through iterative prompting
 
 This made building the API **feel like collaborating with an assistant**, not just writing code solo.
+
+The application is hosted on a [Hetzner](https://www.hetzner.com/) instance and deployed with [Kamal](https://kamal-deploy.org/).
 
 ---
 
@@ -130,13 +131,16 @@ Now I have an operational email collection app, I can easily collect emails on s
 This is my first of many experiments I’m building under a “20-app challenge.” I want to create and release 20 small tools to learn what developers want, what sticks, and what solves real problems.
 
 - [iacut.one/software.html](https://iacut.one/software.html)
-- https://collection.email or https://email-collection.com -- I am unsure which domain will be best for SEO
 
 ---
 
 ## 9. 💬 Try It / Give Feedback
 
 Check out the repo:
-📦 [github.com/iacutone/email\_collector](https://github.com/iacutone/email_collector)
+- https://github.com/iacutone/email_collector/
+- Beta: https://email.collection.email/
 
-If you use it on your landing page, I’d love to hear about it. PRs, stars, and suggestions are always welcome.
+Check out the splash pages:
+- https://github.com/iacutone/email-collection-splash/
+- https://email-collection.com/
+- https://collection.email/

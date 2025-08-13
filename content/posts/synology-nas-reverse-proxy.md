@@ -6,6 +6,7 @@ toc: false
 images:
 tags: 
   - synology
+  - networking
 ---
 
 [How to Install Plausible on Your Synology NAS](https://mariushosting.com/how-to-install-plausible-on-your-synology-nas/) and [Synology: How to Add Wildcard Certificate](https://mariushosting.com/synology-how-to-add-wildcard-certificate/) are great guides to setting up a [Plausible](https://github.com/plausible/community-edition) Docker image on your NAS and exposing it to the internet, but they are long. This blog post is a generic and condensed guide to follow in order to reverse proxy a Docker image running on your NAS and exposing it to the internet. To follow this guide, you will need to own a domain name.
