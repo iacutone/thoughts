@@ -1,5 +1,5 @@
 ---
-title: "Email Collector"
+title: "App 1: Email Collector"
 date: 2025-07-13T20:35:45-04:00
 draft: false
 toc: false

@@ -1,5 +1,5 @@
 ---
-title: "Dog Walker"
+title: "App 2: Dog Walker"
 date: 2025-08-05T18:19:06-04:00
 draft: false
 toc: false
@@ -55,6 +55,8 @@ You pay me money, I walk your dog around Lake Eola.
 ## 6. Learnings
 
 - With the right prompt, Claude can churn out a nice website.
+
+> I plan on creating a brick and mortar business to compete with https://www.eolapets.com/, but all we do is 30 minute or 60 minute dog walks. Can you create me a responsive web splash page with a stubbed out subscribe form that is SEO optimized?
 
 
 ---
