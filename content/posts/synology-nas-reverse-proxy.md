@@ -11,6 +11,14 @@ tags:
 
 [How to Install Plausible on Your Synology NAS](https://mariushosting.com/how-to-install-plausible-on-your-synology-nas/) and [Synology: How to Add Wildcard Certificate](https://mariushosting.com/synology-how-to-add-wildcard-certificate/) are great guides to setting up a [Plausible](https://github.com/plausible/community-edition) Docker image on your NAS and exposing it to the internet, but they are long. This blog post is a generic and condensed guide to follow in order to reverse proxy a Docker image running on your NAS and exposing it to the internet. To follow this guide, you will need to own a domain name.
 
+## Create a Dynamic DNS Entry
+
+1. In your NAS "Control Panel", click "External Access" from the sidebar
+2. Click the "DDNS" tab
+3. Click "Add" button
+4. Add hostname
+5. In the "External Address" dropdowns, click "Auto"
+
 ## Expose Your NAS via Dynamic DNS
 
 1. In your NAS "Control Panel", click "Security" from the sidebar
@@ -20,12 +28,6 @@ tags:
 5. In the "Domain name" text field input: "\<your-domain\>.synology.me"
 6. In the "Subject Alternative Name" text field input: "\*.\<your-domain\>.synology.me"
   - this last step is important in order to have wild card routes
-
-## Create DNS CNAME
-
-1. From your DNS server, for me AWS Route 53, create a CNAME record
-  - for example, I own iacut.one and pointed nas.iacut.one at the value iacutone.synology.me
-  - this value needs to match the certificate domain from above
 
 ## Reverse Proxy a Docker Image
 
