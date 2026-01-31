@@ -94,6 +94,11 @@ limit = 15   # Maximum number of items in the RSS feed.
     weight = 20
 
   [[menu.main]]
+    name = "Book Highlights"
+    url = "book-highlights/"
+    weight = 25
+
+  [[menu.main]]
     name = "About"
     url = "about/"
     weight = 30
